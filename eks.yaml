@@ -6,10 +6,10 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: expense-workers
-    instanceType: t3.small
-    desiredCapacity: 3
-    minSize: 3
+  - name: expense
+    instanceType: t3.micro
+    desiredCapacity: 2
+    minSize: 1
     maxSize: 3
     spot: false
 
