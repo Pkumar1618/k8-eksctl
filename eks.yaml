@@ -10,7 +10,7 @@ managedNodeGroups:
     instanceType: t3.micro
     desiredCapacity: 3
     minSize: 1
-    maxSize: 3
+    maxSize: 4
     spot: false
 
 
