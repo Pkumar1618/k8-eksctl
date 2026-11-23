@@ -9,7 +9,7 @@ managedNodeGroups:
   - name: expense
     instanceType: t3.micro
     desiredCapacity: 3
-    minSize: 1
+    minSize: 3
     maxSize: 3
     spot: false
 
